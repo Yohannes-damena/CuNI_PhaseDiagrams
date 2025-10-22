@@ -1,0 +1,40 @@
+SOLIDIFICATION TEMPERATURES FOR Cu-40Ni ALLOY
+================================================
+
+Based on the equilibrium phase fraction simulation results:
+
+SOLIDIFICATION BEGINS (Liquidus Temperature):
+- Temperature: 1526.8°C (1799.8 K)
+- At this temperature, the first solid phase (FCC-A1) begins to form
+- The alloy is 99% liquid and 1% solid at this point
+- This represents the upper boundary of the two-phase region
+
+SOLIDIFICATION ENDS (Solidus Temperature):
+- Temperature: 1231.9°C (1504.9 K)
+- At this temperature, the last liquid phase disappears
+- The alloy is 99% solid and 1% liquid at this point
+- This represents the lower boundary of the two-phase region
+
+MELTING RANGE:
+- Total melting range: 295.0°C
+- This is the temperature range over which both liquid and solid phases coexist
+- The alloy undergoes gradual solidification over this temperature range
+
+PHASE FRACTION BEHAVIOR:
+- Below 1231.9°C: 100% FCC-A1 solid solution
+- 1231.9°C to 1526.8°C: Two-phase region (Liquid + FCC-A1)
+- Above 1526.8°C: 100% Liquid phase
+
+IMPORTANCE FOR PROCESSING:
+- The wide melting range (295°C) makes this alloy suitable for:
+  * Casting processes (good fluidity over wide temperature range)
+  * Welding (gradual solidification reduces cracking)
+  * Heat treatment (controlled cooling through two-phase region)
+  * Powder metallurgy (sintering in two-phase region)
+
+TECHNICAL SIGNIFICANCE:
+- These temperatures are critical for:
+  * Setting furnace temperatures for heat treatment
+  * Determining cooling rates for desired microstructures
+  * Avoiding hot cracking during welding
+  * Optimizing casting parameters

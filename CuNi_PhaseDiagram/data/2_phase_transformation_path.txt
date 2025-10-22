@@ -1,0 +1,74 @@
+PHASE TRANSFORMATION PATH DURING COOLING
+========================================
+
+COOLING SEQUENCE FOR Cu-40Ni ALLOY (X(Ni) = 0.40):
+
+1. INITIAL STATE (T > 1526.8°C):
+   - Single-phase liquid (L)
+   - Complete atomic mixing of Cu and Ni
+   - Random atomic arrangement
+   - High atomic mobility
+
+2. NUCLEATION PHASE (T ≈ 1526.8°C):
+   - First solid nuclei appear
+   - FCC-A1 solid solution begins to form
+   - Nucleation occurs at grain boundaries or impurities
+   - Critical undercooling required for nucleation
+
+3. TWO-PHASE REGION (1526.8°C > T > 1231.9°C):
+   - Coexistence of liquid and solid phases
+   - Gradual transformation from liquid to solid
+   - Phase composition changes with temperature:
+     * Liquid becomes richer in Cu (lower melting point)
+     * Solid becomes richer in Ni (higher melting point)
+   - Lever rule applies for phase fractions
+
+4. SOLIDIFICATION MECHANISM:
+   - Dendritic growth pattern
+   - Solid grows into liquid
+   - Composition gradients develop
+   - Diffusion controls transformation rate
+
+5. FINAL SOLIDIFICATION (T ≈ 1231.9°C):
+   - Last liquid disappears
+   - Single-phase FCC-A1 solid solution
+   - Complete atomic mixing in solid state
+   - Random substitutional solid solution
+
+6. COOLING BELOW SOLIDUS (T < 1231.9°C):
+   - Single-phase solid solution maintained
+   - No further phase transformations
+   - Possible precipitation of secondary phases at very low temperatures
+   - Microstructural changes due to grain growth
+
+KINETIC CONSIDERATIONS:
+- Cooling rate affects:
+  * Dendrite arm spacing
+  * Composition homogeneity
+  * Grain size
+  * Residual stresses
+
+- Slow cooling (equilibrium):
+  * Complete diffusion
+  * Homogeneous composition
+  * Large grains
+
+- Fast cooling (non-equilibrium):
+  * Composition gradients (coring)
+  * Fine grains
+  * Higher strength
+
+MICROSTRUCTURAL EVOLUTION:
+1. Liquid → Nucleation → Dendritic growth
+2. Primary dendrites form first
+3. Secondary and tertiary arms develop
+4. Interdendritic regions solidify last
+5. Final solidification of eutectic regions (if any)
+
+PRACTICAL IMPLICATIONS:
+- Controlled cooling rates prevent:
+  * Hot cracking
+  * Composition segregation
+  * Residual stresses
+- Heat treatment can homogenize composition
+- Annealing relieves internal stresses
