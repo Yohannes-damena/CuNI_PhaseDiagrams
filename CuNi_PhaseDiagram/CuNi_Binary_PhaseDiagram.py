@@ -11,12 +11,14 @@ db = Database("data/CuNi_db.tdb")
 # ---Define the components and phases ---
 # --- VA for vaccum ---
 components = ['CU', 'NI', 'VA']
+
 phases = ['LIQUID', 'FCC_A1']
 
 # --- Binary Phase Diagram ---
 
 fig, ax = plt.subplots(figsize=(8,6))
-binplot(db, components, phases, x=v.x('NI'), y=v.T,
+binplot(db, components, phases, {v.X('NI'): (0, 1, 0.01), v.T: (400, 1800, 10), v.P: 101325},
+        x=v.X('NI'), y=v.T, ax=ax,
         plot_kwargs={'color': 'royalblue', 'lw':2})
 ax.set_xlabel('Mole Fraction Ni')
 ax.set_ylabel('Temprature(K)')
