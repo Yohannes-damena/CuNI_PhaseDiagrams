@@ -56,7 +56,8 @@ ax.tick_params(which='minor', length=3)
 ax.tick_params(which='major', length=6, width=1.5)
 
 plt.tight_layout()
-plt.show()
+plt.savefig('CuNi_Binary_PhaseDiagram.png', dpi=400, bbox_inches='tight')
+plt.close()
 
 # =============================================================================
 # EQUILIBRIUM PHASE FRACTION SIMULATION
@@ -169,7 +170,8 @@ ax.text(0.85, 0.5, 'Single-Phase\nRegions', fontsize=11, fontweight='bold',
         ha='center', va='center')
 
 plt.tight_layout()
-plt.show()
+plt.savefig('CuNi_PhaseFractions.png', dpi=400, bbox_inches='tight')
+plt.close()
 
 print("="*60)
 print("SIMULATION COMPLETED")
