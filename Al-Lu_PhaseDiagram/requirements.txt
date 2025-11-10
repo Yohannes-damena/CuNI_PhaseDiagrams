@@ -1,0 +1,8 @@
+pycalphad>=0.10.0
+matplotlib>=3.7
+numpy>=1.24
+ipykernel>=6.0
+notebook>=7.0
+pooch>=1.7
+nbconvert>=7.10
+

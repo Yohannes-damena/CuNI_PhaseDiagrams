@@ -14,7 +14,7 @@ def fprime(x, a, b, c, d, e, f, g, h, i, j):
     return 10*a*x**9 + 9*b*x**8 + 8*c*x**7 + 7*d*x**6 + 6*e*x**5 + 5*f*x**4 + 4*g*x**3 + 3*h*x**2 + 2*i*x + j
 
 # Cu-Ni (S. an Mey 1999)
-db_cuni = Database('CuNi_RWTH.tdb')
+db_cuni = Database(os.path.join('data', 'CuNi_db.tdb'))
 my_phases_cuni = ['FCC_A1', 'LIQUID', 'BCC_A2', 'HCP_A3']
 
 # Calculate Isobaric Binary Phase Diagram
@@ -41,10 +41,10 @@ if not os.path.isfile('CuNi_energy.png'):
         y = np.ravel(7.124e-4*result.GM)
         ax.scatter(x, y, marker='.', s=5, color=colorlist[name.upper()])
         popt, pcov = curve_fit(func, x, y)
-        print name, popt
+        print(name, popt)
         ax.plot(xref, func(xref,popt[0],popt[1],popt[2],popt[3],popt[4],popt[5],popt[6],popt[7],popt[8],popt[9],popt[10]), '-', color=colorlist[name.upper()])
         roo = newton(fprime, 0.5, args=(popt[0],popt[1],popt[2],popt[3],popt[4],popt[5],popt[6],popt[7],popt[8],popt[9]),maxiter=1000)
-        print name, "Equilibrium x_Ni near ", roo
+        print(name, "Equilibrium x_Ni near ", roo)
     ax.set_xlim((-0.1, 1.1))
     ax.legend(handles=legend_handles, loc='center left', bbox_to_anchor=(1, 0.6))
     plt.savefig('CuNi_energy.png',dpi=400,bbox_inches='tight')
