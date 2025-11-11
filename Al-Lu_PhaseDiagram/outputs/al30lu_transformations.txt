@@ -1,0 +1,3 @@
+Schematic approximation used for Al–Y.
+Eutectic (approx): X(Y)≈0.15, T≈1100 K
+Peritectic (approx): X(Y)≈0.35, T≈1350 K

@@ -1,0 +1,51 @@
+Cu–Ni Binary System: Analysis and Design Implications
+
+Overview
+This note analyzes the Cu–Ni binary system using the computed phase diagram (CuNi.png) and Gibbs energy curves (CuNi_energy.png). It identifies the temperature range for solidification at Cu–40Ni, explains the phase transformation path during cooling, discusses why the system shows complete solid solubility, and connects the results to alloy design and processing.
+
+Figures (available in this folder)
+- Phase diagram (400–1800 K): CuNi.png
+- Gibbs energy vs composition (1550 K): CuNi_energy.png
+
+1) Temperatures where solidification begins and ends (Cu–40Ni, X(Ni)=0.40)
+- Solidification begins (Liquidus): 1526.8 °C
+- Solidification ends (Solidus): 1231.9 °C
+- Freezing range (ΔT): 295.0 °C
+Interpretation: On cooling, the first FCC_A1 solid forms at the liquidus temperature. The fraction of solid increases through the two-phase region until the alloy becomes fully solid at the solidus temperature.
+
+2) Phase transformation path during cooling (1 atm, equilibrium)
+Cooling path for Cu–40Ni:
+- Above liquidus: Single-phase Liquid (L).
+- Between liquidus and solidus: Two-phase (L + FCC_A1). Primary FCC_A1 solidifies while the remaining liquid adjusts composition slightly (partitioning is mild because k≈1 for Cu–Ni).
+- Below solidus: Single-phase FCC_A1 (homogeneous substitutional solid solution).
+Notes on microstructure:
+- Because the system is isomorphous (no second solid phase or intermetallics), dendritic solidification produces limited segregation compared to eutectic systems.
+- Homogenization heat treatments are effective because only FCC_A1 is stable over broad temperature ranges.
+
+3) Why Cu–Ni exhibits complete solid solubility (Hume–Rothery criteria)
+- Crystal structure: Both Cu and Ni are FCC across the temperatures of interest (no structural mismatch).
+- Atomic size: Metallic radii are very similar (Cu ≈ 128 pm, Ni ≈ 124 pm; size difference < 15% guideline).
+- Valency: Comparable metallic valence, reducing compound-forming tendencies.
+- Electronegativity: Nearly identical (Cu ≈ 1.90, Ni ≈ 1.91, Pauling), minimizing chemical ordering.
+Consequence: The free energy of mixing in the FCC phase remains favorable across the full composition range, giving a single continuous solid solution (FCC_A1) and an isomorphous diagram.
+
+4) Design and processing implications
+- Composition selection: Common engineering grades include 90–10 and 70–30 Cu–Ni for marine and heat-exchanger service (good corrosion resistance and adequate conductivity/strength).
+- Casting and welding: A finite freezing range (≈295 °C at Cu–40Ni) implies dendritic solidification; hot cracking risk exists but is lower than in systems forming brittle intermetallics. Control heat input and composition near the diagram center to mitigate.
+- Hot working and solutionizing: Wide single-phase FCC_A1 field enables robust hot-working windows and solution treatments without forming secondary brittle phases.
+- Heat treatment: No precipitation-hardening constituents; strengthening is mainly by solid solution and cold work. Annealing restores ductility via recovery/recrystallization in single-phase FCC_A1.
+- Homogenization: Any residual microsegregation from casting can be efficiently reduced because only one solid phase exists over broad temperatures.
+- Process modeling: The phase diagram (CuNi.png) sets processing windows (pouring temps above liquidus; hot-work in FCC_A1 field). The Gibbs energy curves (CuNi_energy.png) explain why L and FCC_A1 coexist in the freezing interval (common-tangent construction).
+
+5) How to use the provided figures
+- CuNi.png (phase diagram): Read liquidus/solidus at the composition of interest to set melting, casting, and hot-working targets.
+- CuNi_energy.png (Gibbs energy at 1550 K): The lower envelope of G^M versus composition indicates stable phases; common tangents indicate two-phase equilibria (here, L + FCC_A1), consistent with the diagram.
+
+Key results for Cu–40Ni
+- Liquidus: 1526.8 °C  → solidification begins
+- Solidus: 1231.9 °C  → solidification ends
+- Freezing range: 295.0 °C
+- Cooling path: L → (L + FCC_A1) → FCC_A1 (isomorphous system, complete solid solubility)
+
+End of analysis.
+
